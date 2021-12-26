@@ -1,0 +1,26 @@
+version: '3.9'
+
+services:
+  web:
+    user: 1000:1000
+    build: ./apps
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./apps/:/usr/src/apps/
+    ports:
+      - 8000:8000
+    env_file:
+      - ./.env.dev
+    depends_on:
+      - db
+  db:
+    image: postgres:13.0-alpine
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=babtis_user
+      - POSTGRES_PASSWORD=babtis_password
+      - POSTGRES_DB=babtis_db_dev
+
+volumes:
+  postgres_data:
