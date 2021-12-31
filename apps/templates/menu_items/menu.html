@@ -1,4 +1,4 @@
-<nav class="menu">
+<div class="menu">
     {% for item in tree_menu %}
         {% if item.open or item.first_level or item.active %}
         <a href="{% url 'detail_post' slug=item.menu_url %}"
@@ -10,4 +10,4 @@
             ">{{ item.title }}</a>
         {% endif %}
     {% endfor %}
-</nav>
+</div>

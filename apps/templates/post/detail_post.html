@@ -1,0 +1,10 @@
+{% extends 'post/base.html' %}
+{% block title %} {{ post.name }} {% endblock %}
+{% block header %}<h1 class="header">{{ post.header }}</h1>{% endblock %}
+
+{% block posts %}
+    <div class="post">
+        <h2>{{ post.content }}</h2>
+        <a href="{% url 'all_posts' %}">Back to all posts</a>
+    </div>
+{% endblock %}a

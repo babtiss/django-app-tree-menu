@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    {% load draw_menu %}
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}" type="text/css">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <div class="header">
+        {% block header %}{% endblock %}
+    </div>
+    <div class="main-content">
+        <div class="menus">{% draw_menu 'main-menu' %}</div>
+        <div class="posts">{% block posts %}{% endblock %}</div>
+    </div>
+</body>
+</html>
