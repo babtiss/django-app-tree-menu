@@ -7,11 +7,12 @@ Need to make a django app that will implement the tree menu.
 
 _Conditions:_
 
-- From libraries only Django and the Python standard library can be used
+- Doesn't use third-party libraries (only Django and the Python standard library)
 - Use postgresql database
-- Implement rendering of the template using the template tag
+- Easy to add to template (use template tags)
 - To render each menu exactly 1 request to the database is required
-- Do not write shit code
+- Any number of nesting levels
+- Separate the link / data display logic for menus and related apps
 
 _Stage of the project:_
 The project is being written
