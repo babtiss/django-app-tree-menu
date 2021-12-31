@@ -79,7 +79,7 @@ html, body {
     padding-left: 4rem;
 }
 
-.item.first-level.active_child + .item.open + .item.active {
+.item.first-level.active_child ~ .item.open ~ .item.active {
     padding-left: 4rem;
 }
 
