@@ -21,5 +21,9 @@ _Conditions:_
     
 **_How it looks:_**
     
-    
+https://github.com/babtiss/django_training_project/blob/master/assets/All_posts.png
+https://github.com/babtiss/django_training_project/blob/master/assets/Docker.png
+https://github.com/babtiss/django_training_project/blob/master/assets/Report.png
+https://github.com/babtiss/django_training_project/blob/master/assets/jobs.png
+https://github.com/babtiss/django_training_project/blob/master/assets/Senior.png
     
