@@ -19,7 +19,21 @@ _Conditions:_
     docker-compose build
     docker-compose up -d
     
+**_if you're on Windows you may use py or py -3 instead of python to start Python:_**
+
+    pip3 install -r requirements.txt
+    python3 manage.py makemigrations
+    python3 manage.py migrate
+    python3 manage.py createsuperuser
+    python3 manage.py runserver
+
 **_How it looks:_**
     
+![alt tag](https://github.com/babtiss/django_training_project/blob/master/assets/All_posts.png)
+![alt tag](https://github.com/babtiss/django_training_project/blob/master/assets/Docker.png)
+![alt tag](https://github.com/babtiss/django_training_project/blob/master/assets/jobs.png)
+![alt tag](https://github.com/babtiss/django_training_project/blob/master/assets/Senior.png)
+![alt tag](https://github.com/babtiss/django_training_project/blob/master/assets/Report.png)
+
     
     
