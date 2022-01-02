@@ -1,4 +1,4 @@
-#### **Django task project**
+## **Django tree-menu project**
 **The repository with task for my practice**
 
 _Objective:_ 
@@ -14,11 +14,12 @@ _Conditions:_
 - Any number of nesting levels
 - Separate the link / data display logic for menus and related apps
 
-_Stage of the project:_
-The project is being written
-
-_For running project:_
+**_For running project:_**
 
     docker-compose build
     docker-compose up -d
+    
+**_How it looks:_**
+    
+    
     
