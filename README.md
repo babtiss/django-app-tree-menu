@@ -15,9 +15,6 @@ _Conditions:_
 - Separate the link / data display logic for menus and related apps
 
 **_For running project:_**
-
-    docker-compose build
-    docker-compose up -d
     
 **_if you're on Windows you may use py or py -3 instead of python to start Python:_**
 
