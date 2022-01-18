@@ -15,14 +15,9 @@ _Conditions:_
 - Separate the link / data display logic for menus and related apps
 
 **_For running project:_**
-    
-**_if you're on Windows you may use py or py -3 instead of python to start Python:_**
 
-    pip3 install -r requirements.txt
-    python3 manage.py makemigrations
-    python3 manage.py migrate
-    python3 manage.py createsuperuser
-    python3 manage.py runserver
+    docker-compose build
+    docker-compose up -d
 
 **_How it looks:_**
     
