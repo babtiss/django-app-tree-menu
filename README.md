@@ -14,11 +14,6 @@ _Conditions:_
 - Any number of nesting levels
 - Separate the link / data display logic for menus and related apps
 
-**_For running project:_**
-
-    docker-compose build
-    docker-compose up -d
-
 **_How it looks:_**
     
 ![alt tag](https://github.com/babtiss/django_training_project/blob/master/assets/All_posts.png)
